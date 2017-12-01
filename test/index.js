@@ -35,7 +35,7 @@ function assertStack(error) {
     var stack = errorStackParser.parse(error);
     expect(stack[0].functionName).to.be.eql('throwAndCatch');
     expect(stack[0].lineNumber).to.be.eql(24);
-    expect(stack[0].columnNumber).to.be.eql(9);
+    expect(stack[0].columnNumber).to.be.eql(15);
 }
 
 describe('Testing ProjectError', function () {
@@ -134,7 +134,7 @@ describe('Testing ProjectError', function () {
         var stack = errorStackParser.parse(error);
         expect(stack[0].functionName).to.be.eql('generateErrorInNamedFunctionForTraceability');
         expect(stack[0].lineNumber).to.be.eql(31);
-        expect(stack[0].columnNumber).to.be.eql(9);
+        expect(stack[0].columnNumber).to.be.eql(15);
     });
 
     it('CASE 6: Should handle different statusObj forms', function () {
