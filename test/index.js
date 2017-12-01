@@ -134,7 +134,7 @@ describe('Testing ProjectError', function () {
         var stack = errorStackParser.parse(error);
         expect(stack[0].functionName).to.be.eql('generateErrorInNamedFunctionForTraceability');
         expect(stack[0].lineNumber).to.be.eql(31);
-        expect(stack[0].columnNumber).to.be.eql(15);
+        expect(stack[0].columnNumber).to.be.eql(12);
     });
 
     it('CASE 6: Should handle different statusObj forms', function () {
