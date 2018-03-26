@@ -1,7 +1,7 @@
 {
   "name": "project-error",
   "description": "Customized error class module for projects/microservices. Throw error objects within a JavaScript Error class while preserving the stack.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://www.npmjs.com/package/project-error",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -21,9 +21,9 @@
   "main": "lib/index.js",
   "license": "MIT",
   "keywords": [
-      "custom-error",
-      "personalized",
-      "project-error"
+    "custom-error",
+    "personalized",
+    "project-error"
   ],
   "engines": {
     "node": ">= 0.10.0"
