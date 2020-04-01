@@ -1,10 +1,11 @@
 # ProjectError
 
-[![CircleCI](https://img.shields.io/circleci/project/suddi/project-error/master.svg)](https://circleci.com/gh/suddi/project-error)
+[![CircleCI](https://circleci.com/gh/suddi/project-error.svg?style=svg)](https://circleci.com/gh/suddi/project-error)
 [![codecov](https://codecov.io/gh/suddi/project-error/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/project-error)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/Suddi/project-error)
 [![npm](https://img.shields.io/npm/v/project-error.svg)](https://www.npmjs.com/package/project-error)
 [![npm](https://img.shields.io/npm/dt/project-error.svg)](https://www.npmjs.com/package/project-error)
+[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/project-error.svg)](https://greenkeeper.io/)
 [![David](https://img.shields.io/david/suddi/project-error.svg)](https://david-dm.org/suddi/project-error)
 [![license](https://img.shields.io/github/license/suddi/project-error.svg)](https://raw.githubusercontent.com/suddi/project-error/master/LICENSE)
 
