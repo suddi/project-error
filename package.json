@@ -30,7 +30,6 @@
   },
   "scripts": {
     "coverage": "nyc mocha",
-    "prepush": "npm test",
     "security-check": "npm audit --audit-level high || true",
     "test": "npm run security-check && npm run coverage"
   },
@@ -41,5 +40,10 @@
     "husky": "^4.2.3",
     "mocha": "^7.1.1",
     "nyc": "^15.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
   }
 }
