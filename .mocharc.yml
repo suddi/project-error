@@ -32,7 +32,7 @@ retries: 1
 slow: 75
 sort: false
 # The positional arguments!
-spec: test
+spec: test/**/*.js
 # same as "no-timeout: true" or "timeout: 0"
 timeout: 5000
 # Node flags ok
