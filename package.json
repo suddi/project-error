@@ -29,19 +29,17 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "check-coverage": "istanbul check-coverage",
-    "coverage": "istanbul cover _mocha",
+    "coverage": "nyc mocha",
     "prepush": "npm test",
-    "security-check": "nsp check --output summary --warn-only",
-    "test": "npm run security-check && npm run coverage && npm run check-coverage"
+    "security-check": "npm audit --audit-level high || true",
+    "test": "npm run security-check && npm run coverage"
   },
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.0.0",
     "error-stack-parser": "^2.0.0",
-    "husky": "0.13.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.0.0",
-    "nsp": "^2.0.0"
+    "husky": "^4.2.3",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0"
   }
 }
