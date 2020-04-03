@@ -6,6 +6,7 @@
 [![npm](https://img.shields.io/npm/v/project-error.svg)](https://www.npmjs.com/package/project-error)
 [![npm](https://img.shields.io/npm/dt/project-error.svg)](https://www.npmjs.com/package/project-error)
 [![David](https://img.shields.io/david/suddi/project-error.svg)](https://david-dm.org/suddi/project-error)
+[![David](https://img.shields.io/david/dev/suddi/project-error.svg)](https://david-dm.org/suddi/project-error?type=dev)
 [![license](https://img.shields.io/github/license/suddi/project-error.svg)](https://raw.githubusercontent.com/suddi/project-error/master/LICENSE)
 
 [![codecov](https://codecov.io/gh/suddi/project-error/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/project-error)
